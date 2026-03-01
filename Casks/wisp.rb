@@ -10,7 +10,7 @@ cask "wisp" do
   depends_on macos: ">= :sonoma"
   depends_on arch: :arm64
 
-  app "Wisp.app"
+  app "OpenSuperWhisper.app"
 
   zap trash: [
     "~/Library/Application Scripts/com.wisp.Wisp",
