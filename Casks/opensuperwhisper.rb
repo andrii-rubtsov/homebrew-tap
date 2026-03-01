@@ -3,8 +3,8 @@ cask "opensuperwhisper" do
   sha256 "PLACEHOLDER"
 
   url "https://github.com/andrii-rubtsov/OpenSuperWhisper/releases/download/v#{version}/OpenSuperWhisper.dmg"
-  name "OpenSuperWhisper"
-  desc "Whisper dictation/transcription app"
+  name "Wisp"
+  desc "Wisp — real-time audio transcription app powered by Whisper"
   homepage "https://github.com/andrii-rubtsov/OpenSuperWhisper"
 
   depends_on macos: ">= :sonoma"
