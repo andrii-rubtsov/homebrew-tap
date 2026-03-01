@@ -1,4 +1,4 @@
-cask "opensuperwhisper" do
+cask "wisp" do
   version "1.0.0"
   sha256 "PLACEHOLDER"
 
