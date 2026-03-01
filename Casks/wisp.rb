@@ -2,7 +2,7 @@ cask "wisp" do
   version "1.0.0"
   sha256 "PLACEHOLDER"
 
-  url "https://github.com/andrii-rubtsov/Wisp/releases/download/v#{version}/OpenSuperWhisper.dmg"
+  url "https://github.com/andrii-rubtsov/Wisp/releases/download/v#{version}/Wisp.dmg"
   name "Wisp"
   desc "Wisp — real-time audio transcription app powered by Whisper"
   homepage "https://github.com/andrii-rubtsov/Wisp"
