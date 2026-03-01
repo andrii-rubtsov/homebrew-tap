@@ -1,6 +1,6 @@
 cask "wisp" do
-  version "1.0.3"
-  sha256 "6192b99322d4b3187a55483393a4190b611d2019c366d12f4c904f86064c5e07"
+  version "1.0.4"
+  sha256 "4e42289c8962dce6d3366409691241d838cd4bc72db07ec29efda96b3fba6084"
 
   url "https://github.com/andrii-rubtsov/Wisp/releases/download/v#{version}/Wisp.dmg"
   name "Wisp"
@@ -10,7 +10,7 @@ cask "wisp" do
   depends_on macos: ">= :sonoma"
   depends_on arch: :arm64
 
-  app "OpenSuperWhisper.app"
+  app "Wisp.app"
 
   zap trash: [
     "~/Library/Application Scripts/com.wisp.Wisp",
